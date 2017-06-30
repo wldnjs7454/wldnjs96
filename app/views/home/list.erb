@@ -1,0 +1,12 @@
+<h1>This is view file.</h1>
+
+<%@every_post.each do|p| %>
+<%=p.title %><br>
+<%=p.content %> <br>
+
+<a href ="/destroy/<%=p.id%>">[삭제]</a>
+<a href ="/edit/<%=p.id%>"> [수정]</a>
+<hr>
+
+<% end %>
+<a href="/">뒤로가기</a>
