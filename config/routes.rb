@@ -9,6 +9,7 @@
   get "/destroy/:id" => "home#destroy"
   
   get "/edit/:id" => "home#edit"
+  get "/update"
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
